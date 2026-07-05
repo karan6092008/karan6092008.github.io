@@ -3,3 +3,8 @@ description: Hardware benchmarks, comparisons, and dedicated reviews.
 theme: minima
 plugins:
   - jekyll-feed
+
+# Navigation Settings
+header_pages:
+  - index.md
+  - about.md
