@@ -134,4 +134,53 @@ function filterCategory(category) {
     }
   });
 }
+  <style>
+/* Responsive Advertisement / Affiliate Grid Layout */
+.main-layout {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+.ad-sidebar {
+  background: #161b22;
+  border: 1px solid #30363d;
+  padding: 15px;
+  border-radius: 8px;
+  height: max-content;
+}
+.banner-space {
+  background: #21262d;
+  border: 2px dashed #58a6ff;
+  color: #8b949e;
+  padding: 40px 10px;
+  text-align: center;
+  border-radius: 4px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+@media (max-width: 768px) {
+  .main-layout { grid-template-columns: 1fr; }
+}
+</style>
+
+<div class="main-layout">
+
+  <div class="content-side">
+    </div>
+
+  <div class="ad-sidebar">
+    <h3>📢 Deals of the Week</h3>
+    
+    <div class="banner-space">
+      <strong>[AD PLACEHOLDER]</strong><br>
+      <a href="YOUR_AFFILIATE_LINK" style="color:#58a6ff;">RTX 4070 Laptop Deal 15% OFF</a>
+    </div>
+
+    <div class="banner-space">
+      <strong>[SPONSOR ZONE]</strong><br>
+      Contact us to feature your tech hardware here.
+    </div>
+  </div>
+
+</div>
 </script>
