@@ -3,6 +3,33 @@ layout: home
 title: TechReview Zero Hub
 ---
 
+<style>
+/* CSS Animation Rules */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animated-content {
+  animation: fadeInUp 0.8s ease-out forwards;
+}
+
+/* Enhancing Table Rows for dynamic mouse hovering */
+tr:hover {
+  background-color: #f5f5f5 !important;
+  transform: scale(1.01);
+  transition: all 0.2s ease-in-out;
+}
+</style>
+
+<div class="animated-content">
+
 ## Latest Hardware Comparisons
 
 | Feature | Premium Laptop A | Budget Competitor B |
@@ -16,3 +43,5 @@ title: TechReview Zero Hub
 ---
 
 ## Dedicated Hardware Reviews
+
+</div>
